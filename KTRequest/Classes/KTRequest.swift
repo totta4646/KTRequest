@@ -12,11 +12,11 @@ public struct KTRequest {
     
     static public func GET(urlString: String, params: Dictionary<String, String>, success: ((NSURLResponse, AnyObject) -> Void), failure: ((NSError) -> Void)) {
         
-        var url = NSURL(string: getUriWithQueryString(urlString, params: params))
+        let url = NSURL(string: getUriWithQueryString(urlString, params: params))
         let config = NSURLSessionConfiguration.defaultSessionConfiguration()
         let session = NSURLSession(configuration: config)
-        var request = NSMutableURLRequest(URL: url!)
-        var task = session.dataTaskWithRequest(request, completionHandler: {
+        let request = NSMutableURLRequest(URL: url!)
+        let task = session.dataTaskWithRequest(request, completionHandler: {
             (data, response, error) in
             if ((error == nil)) {
                 success(response!, NSString(data: data!, encoding: NSUTF8StringEncoding)!)
@@ -29,16 +29,16 @@ public struct KTRequest {
     
     static public func POST(urlString: String, params: Dictionary<String, AnyObject>, success: ((NSURLResponse, AnyObject) -> Void), failure: ((NSError) -> Void)) {
         
-        var url = NSURL(string: urlString)
+        let url = NSURL(string: urlString)
         let config = NSURLSessionConfiguration.defaultSessionConfiguration()
         let session = NSURLSession(configuration: config)
-        var request = NSMutableURLRequest(URL: url!)
+        let request = NSMutableURLRequest(URL: url!)
         
-        var data:NSData! =  NSKeyedArchiver.archivedDataWithRootObject(params)
+        let data:NSData! =  NSKeyedArchiver.archivedDataWithRootObject(params)
         request.HTTPMethod = "POST"
         request.HTTPBody = data
         
-        var task = session.dataTaskWithRequest(request, completionHandler: {
+        let task = session.dataTaskWithRequest(request, completionHandler: {
             (data, response, error) in
             if ((error == nil)) {
                 success(response!, NSString(data: data!, encoding: NSUTF8StringEncoding)!)
