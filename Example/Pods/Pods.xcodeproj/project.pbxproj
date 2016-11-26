@@ -84,7 +84,7 @@
 		9B66EEE1E0624729C2C706D987BAFC6D /* CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36215F7E5778F54BA3D2A39454D4B03F /* CurrentTestCaseTracker.m */; };
 		A322EE6CC97DF0764D413368EE8A1C69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8CBBF32C39839511129EB1C04B4277 /* Foundation.framework */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1B41E38EDD94E1ED1FE9BC999DEF1 /* FBSnapshotTestController.m */; };
-		A66B10D3122862264C759B2B87742408 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C502FA713814E36C11BCD29B45F1E8 /* ReplaceMe.swift */; };
+		A66B10D3122862264C759B2B87742408 /* KTRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C502FA713814E36C11BCD29B45F1E8 /* KTRequest.swift */; };
 		A8B8472035C3F2ADEAC41B42BDD41EDE /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B112F1E9B122094C5F127A0CA8E480 /* NSString+QCKSelectorName.m */; };
 		AA8B50C618042C5F144D1B8FFBFBDF3E /* ObjCExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33045C4D701E54CE8539A9038ADBFBDA /* ObjCExpectation.swift */; };
 		AAAC6B23B5E6A1BDADE5B4D0B8E7A929 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D583345A544DBE4373F3BB917431FFAF /* BeAnInstanceOf.swift */; };
@@ -268,7 +268,7 @@
 		7EC748B938739D8B87F415EE175F58D1 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/Quick/World.h; sourceTree = "<group>"; };
 		81B731C58FAB51347C4CBA9670586CE0 /* KTRequest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTRequest-prefix.pch"; sourceTree = "<group>"; };
 		848C402D439EB9B5972AECCE4084C23C /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		84C502FA713814E36C11BCD29B45F1E8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		84C502FA713814E36C11BCD29B45F1E8 /* KTRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KTRequest.swift; sourceTree = "<group>"; };
 		859C5C30856A6617F00E5D648C212EC9 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/Nimble/objc/DSL.h; sourceTree = "<group>"; };
 		86EFE3733072FCC29114AA1EF2429682 /* Pods-KTRequest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTRequest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		87225E9B9E389551A1F536347B982B04 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
@@ -544,7 +544,7 @@
 		500EA5EDF0223B281E2AF80F2BE6F130 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				84C502FA713814E36C11BCD29B45F1E8 /* ReplaceMe.swift */,
+				84C502FA713814E36C11BCD29B45F1E8 /* KTRequest.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1049,7 +1049,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C09402DFC824C068F1CFA3FFE4A5BF53 /* KTRequest-dummy.m in Sources */,
-				A66B10D3122862264C759B2B87742408 /* ReplaceMe.swift in Sources */,
+				A66B10D3122862264C759B2B87742408 /* KTRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
