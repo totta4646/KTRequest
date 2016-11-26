@@ -1,0 +1,35 @@
+PODS:
+  - FBSnapshotTestCase (2.1.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
+  - FBSnapshotTestCase/Core (2.1.1)
+  - FBSnapshotTestCase/SwiftSupport (2.1.1):
+    - FBSnapshotTestCase/Core
+  - KTRequest (0.1.0)
+  - Nimble (3.2.0)
+  - Nimble-Snapshots (4.1.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble
+    - Quick
+  - Quick (0.9.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KTRequest (from `../`)
+  - Nimble (~> 3.0)
+  - Nimble-Snapshots
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  KTRequest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
+  KTRequest: c890da3e6f2c6f7fd743f9076aa0fc814cea95bc
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Nimble-Snapshots: 2da4d2ec829b458d6886c06812c52493fce284c9
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+
+PODFILE CHECKSUM: 00b8d33fb8bdc5683878643fef49195d1a9c9256
+
+COCOAPODS: 1.1.1

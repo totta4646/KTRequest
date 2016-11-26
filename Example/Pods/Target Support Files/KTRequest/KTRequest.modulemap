@@ -1,0 +1,6 @@
+framework module KTRequest {
+  umbrella header "KTRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}

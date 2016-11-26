@@ -1,0 +1,22 @@
+{
+  "name": "KTRequest",
+  "version": "0.1.0",
+  "summary": "A short description of KTRequest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KTRequest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kohei Totani": "syshayr_soccer_46@yahoo.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KTRequest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KTRequest/Classes/**/*"
+}
